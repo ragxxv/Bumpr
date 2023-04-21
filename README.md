@@ -1,5 +1,5 @@
 # Bumpr
-A Discord SelfBot/UserBot which auto bumps the server every 2nd hour on Disboard. <br />
+A Discord SelfBot/UserBot made through DisCum in python, which auto bumps the server every 2nd hour on Disboard. <br />
 Suitable for hosting on repl.it since it is not time based. **__[USES SLASH COMMAND]__**
 
 # Requirements:
