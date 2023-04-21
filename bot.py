@@ -24,6 +24,6 @@ def bump(resp, prefix):
         channelID = m['channel_id']
         bot.sendMessage(channelID,message='Do not ping me unnecessarily.')
 
-prefix = ''
+prefix = '<@>'  #Put user id of the selfbot after the @, within angle brackets.
 bot.gateway.command({"function": bump, "params": {"prefix": prefix}})
 bot.gateway.run(auto_reconnect=True)
