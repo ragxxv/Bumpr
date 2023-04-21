@@ -12,7 +12,6 @@ Since many would tend to host the selfbot/userbot on repl.it, no time module is 
 Instead, the bot sends the slash command of bump whenever it is pinged in the chat. There are many bump reminder bots out there, which can be used for this purpose. <br />
 
 The owner must ping the bot once for setting up the reminder, which automatically loops the bump for future.
-
 # Setup:
 Simply just fill out details needed in bot.py as **strings**. <br />
 
