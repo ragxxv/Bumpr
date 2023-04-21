@@ -16,9 +16,9 @@ The owner must ping the bot once for setting up the reminder, which automaticall
 # Setup:
 Simply just fill out details needed in bot.py as **strings**. <br />
 
+TOKEN = token of account to be used as selfbot/userbot
 ownerID = your user id <br />
 reminder_botID = user id of the bot used to remind for bump <br />
-TOKEN = token of account to be used as selfbot/userbot
-prefix = user id of selfbot within angle brackets after @. 
+prefix = user id of selfbot within angle brackets after @.
 
 That's it, you're welcome.
