@@ -1,6 +1,9 @@
-# Bumpr
-A Discord SelfBot/UserBot made through DisCum in python, which auto bumps the server every 2nd hour on Disboard. <br />
-Suitable for hosting on repl.it since it is not time based. **__[USES SLASH COMMAND]__**
+<div id="ragxxv" align="center">
+    <h1>Bumpr</h1>
+    <p>A Discord SelfBot/UserBot made through DisCum, which auto bumps the server every 2nd hour on Disboard through slash command. <br />
+Suitable for hosting on repl.it since it is not time based.</p>
+<img src="https://i.imgur.com/Eg91Rxk.png">
+</div>
 
 # Requirements:
 -> A discord account to be used as selfbot/userbot. <br />
