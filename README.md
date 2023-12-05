@@ -1,7 +1,5 @@
 <div id="ragxxv" align="center">
     <h1>Bumpr</h1>
-    <p>A Discord SelfBot/UserBot made through DisCum, which auto bumps the server every 2nd hour on Disboard through slash command. <br />
-Suitable for hosting on repl.it and undetectable by disboard.</p>
 <img src="https://i.imgur.com/Eg91Rxk.png">
 </div>
 
