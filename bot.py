@@ -3,9 +3,11 @@ import discum
 import time
 import random
 
-ownerID = ''
-reminder_botID = ''
-TOKEN= ''
+ownerID = "" #OWNER ID
+reminder_botID = "" #REMINDER BOT ID
+selfbot_ID = "" #SELFBOT ID
+TOKEN = "" #TOKEN
+
 
 bot = discum.Client(token=TOKEN,log=False)
 
@@ -26,6 +28,6 @@ def bump(resp, prefix):
         channelID = m['channel_id']
         bot.sendMessage(channelID,message='Do not ping me unnecessarily.')
 
-prefix = '<@>'  #Put user id of the selfbot after the @, within angle brackets.
+prefix = f"<@{selfbot_ID}>"
 bot.gateway.command({"function": bump, "params": {"prefix": prefix}})
 bot.gateway.run(auto_reconnect=True)
