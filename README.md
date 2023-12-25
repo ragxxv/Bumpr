@@ -6,7 +6,7 @@
 # Requirements:
 + A Discord account to be used as bot. <br />
 + A bump reminder bot, there are numerous available for this purpose. <br />
-+ DMs opened with the Disboard bot, this allows to fetch the slash command. <br />
++ DMs opened with the Disboard bot from selfbot, this allows to fetch the slash command. <br />
 
 # How it works:
 Anytime the bot is pinged by the operator or the reminder bot, it sends the bump slash command. <br />
