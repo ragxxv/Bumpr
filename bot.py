@@ -3,10 +3,10 @@ import discum
 import time
 import random
 
-ownerID = "" #OWNER ID
-reminder_botID = "" #REMINDER BOT ID
-selfbot_ID = "" #SELFBOT ID
-TOKEN = "" #TOKEN
+ownerID = "OWNER ID HERE" # https://support.discord.com/hc/en-us/articles/206346498-Where-can-I-find-my-User-Server-Message-ID
+reminder_botID = "REMINDER BOT ID HERE"
+selfbot_ID = "SELFBOT ID HERE"
+TOKEN = "" # https://gist.github.com/MarvNC/e601f3603df22f36ebd3102c501116c6
 
 
 bot = discum.Client(token=TOKEN,log=False)
